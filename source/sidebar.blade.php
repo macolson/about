@@ -49,20 +49,26 @@
         <li>
             <div class="flex py-2">
                 <div class="text-sm text-right text-gray-500 w-1/3 pr-3"> Villa Amsel</div>
-                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600" href="">
-                    https://www.villa-amsel.at </a></div>
+                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600" href="https://www.villa-amsel.at">
+                    https://www.villa-amsel.at <small class="text-gray-600">JIMDO</small></a> </div>
         </li>
         <li>
             <div class="flex py-2">
                 <div class="text-sm text-right text-gray-500 w-1/3 pr-3"> Reischhof</div>
-                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600" href="">
-                    https://www.reischhof.at</a></div>
+                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600" href="https://www.reischhof.at">
+                    https://www.reischhof.at <small class="text-gray-600">JIMDO</small></a></div>
         </li>
         <li>
             <div class="flex py-2">
                 <div class="text-sm text-right text-gray-500 w-1/3 pr-3"> Gästehaus Bliem</div>
-                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600" href="">
-                    https://www.bliem.cc </a></div>
+                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600" href="https://www.bliem.cc">
+                    https://www.bliem.cc <small class="text-gray-600">JIMDO and logo design</small></a></div>
+        </li>
+        <li>
+            <div class="flex py-2">
+                <div class="text-sm text-right text-gray-500 w-1/3 pr-3"> Repayment calculator</div>
+                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600" href="https://landeskulturfonds.tirol/at/tilgungsrechner.php">
+                   Calculator <small class="text-gray-600">VueJS implmentation</small></a></div>
         </li>
     </ul>
     <div class="title flex items-center text-white text-gray-100 text-xl text-center tracking-wider font-sans pt-4 pb-2">
@@ -87,7 +93,7 @@
     <ul class="pb-10">
         <li>
             <div class="flex flex-col py-2">
-                <div class="text-xs text-gray-500 pb-1 uppercase"> German <small class="text-gray-600">mother tounge</small></div>
+                <div class="text-xs text-gray-500 pb-1 uppercase"> German <small class="text-gray-600">mother tongue</small></div>
                 <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
                     <div class="bg-blue-400 h-full" style="width: 100%;"></div>
                 </div>
@@ -176,6 +182,22 @@
         </li>
         <li>
             <div class="flex flex-col py-2">
+                <div class="text-xs text-gray-500 pb-1 uppercase"> NPM / YARN</div>
+                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
+                    <div class="bg-blue-400 h-full" style="width: 60%;"></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="flex flex-col py-2">
+                <div class="text-xs text-gray-500 pb-1 uppercase"> GIT <small class="text-gray-600">GitHub, BitBucket</small></div>
+                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
+                    <div class="bg-blue-400 h-full" style="width: 60%;"></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="flex flex-col py-2">
                 <div class="text-xs text-gray-500 pb-1 uppercase"> Atlassian suite <small class="text-gray-600">jira, confluence, bitbucket</small></div>
                 <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
                     <div class="bg-blue-400 h-full" style="width: 80%;"></div>
@@ -220,6 +242,22 @@
         </li>
         <li>
             <div class="flex flex-col py-2">
+                <div class="text-xs text-gray-500 pb-1 uppercase"> iOS</div>
+                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
+                    <div class="bg-blue-400 h-full" style="width: 95%;"></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="flex flex-col py-2">
+                <div class="text-xs text-gray-500 pb-1 uppercase"> Android</div>
+                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
+                    <div class="bg-blue-400 h-full" style="width: 80%;"></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="flex flex-col py-2">
                 <div class="text-xs text-gray-500 pb-1 uppercase"> Microsoft Suite <small class="text-gray-600">Excel, Word, Outlook</small></div>
                 <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
                     <div class="bg-blue-400 h-full" style="width: 80%;"></div>
@@ -248,13 +286,43 @@
     <ul class="pb-10">
         <li>
             <div class="flex flex-col py-2">
-                <div class="text-xs text-gray-500 pb-1 uppercase"> Family <small class="text-gray-600">My two sons always know how to keep me bussy</small></div>
+                <div class="text-xs text-gray-500 pb-1 uppercase"> Family <small class="text-gray-600">My two sons always know how to keep me busy</small></div>
                 <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
                     <div class="bg-blue-400 h-full" style="width: 100%;"></div>
                 </div>
             </div>
             <div class="flex flex-col py-2">
-                <div class="text-xs text-gray-500 pb-1 uppercase"> Climbing <small class="text-gray-600">Klettersteig</small></div>
+                <div class="text-xs text-gray-500 pb-1 uppercase"> Climbing <small class="text-gray-600">Via Ferrata</small></div>
+                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
+                    <div class="bg-blue-400 h-full" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="flex flex-col py-2">
+                <div class="text-xs text-gray-500 pb-1 uppercase"> Skiing</div>
+                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
+                    <div class="bg-blue-400 h-full" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="flex flex-col py-2">
+                <div class="text-xs text-gray-500 pb-1 uppercase"> Snowboarding</div>
+                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
+                    <div class="bg-blue-400 h-full" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="flex flex-col py-2">
+                <div class="text-xs text-gray-500 pb-1 uppercase"> Skateboarding</div>
+                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
+                    <div class="bg-blue-400 h-full" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="flex flex-col py-2">
+                <div class="text-xs text-gray-500 pb-1 uppercase"> Windsurfing</div>
+                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
+                    <div class="bg-blue-400 h-full" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="flex flex-col py-2">
+                <div class="text-xs text-gray-500 pb-1 uppercase"> Climbing <small class="text-gray-600">Via Ferrata</small></div>
                 <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
                     <div class="bg-blue-400 h-full" style="width: 100%;"></div>
                 </div>

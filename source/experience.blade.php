@@ -11,14 +11,14 @@
                 <p class="font-sans text-xs text-gray-700 tracking-wide leading-loose py-2">
                     Lead development for a content management system based on the Laravel PHP framework with APIs to a
                     mobile application. First CMS approach was written from scratch with VueJS.
-                    After the Launch of <a class="underline hover:text-blue-600" href="https://nova.laravel.com">Laravel NOVA</a> the CMS was completely rewritten to speed up development and new feature implementations.
+                    After the Launch of <a class="underline hover:text-blue-600" href="https://nova.laravel.com">Laravel NOVA</a>, the CMS was completely rewritten to speed up development and new feature implementations.
                     To provide scalability and stability the CMS was deployed using AWS ElasticBeanstalk with AWS RDS (MariaDB database) und AWS Elasticache (REDIS cache).
                 </p>
 
                 <div class="font-sans text-gray-800 mt-4">Areas of responsibility</div>
                 <ul class="flex flex-col mt-2 list-disc list-inside">
                     <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
-                        Main concept creation for new product based on Laravel
+                        Main concept creation for a new product based on Laravel
                     </li>
                     <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
                         Model and Database design
@@ -83,13 +83,13 @@
                     Based on this concept I started managing our developers in Berlin to meet the concept requirements.
                     The tool was developed for HTC which was than preinstalled on HTC smartphones and published via
                     Google Play.
-                    At the end of the product lifecycle the CMS backend performed well and handled about 2 Mio. users
+                    At the end of the product lifecycle, the CMS backend performed well and handled about 2 Mio. users
                     around the globe.
                 </p>
                 <div class="font-sans text-gray-800 mt-4">Areas of responsibility</div>
                 <ul class="flex flex-col mt-2">
                     <li class="text-xs bg-gray-400 rounded-full px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
-                        maintain and improve existing codebase in PHP
+                        Maintain and improve existing codebase in PHP
                     </li>
                     <li class="text-xs bg-gray-400 rounded-full px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
                         Feature improvement and new feature implementations in pimcore
