@@ -8,7 +8,7 @@
     <link rel="canonical" href="{{ $page->getUrl() }}">
     <meta name="description" content="{{ $page->description }}">
     <title>{{ $page->title }}</title>
-    <link rel="stylesheet" href="{{ trim($page->getUrl(),'/') }} {{ mix('css/main.css', 'assets/build') }}">
+    <link rel="stylesheet" href="{{ trim($page->getUrl(),'/') }}{{ mix('css/main.css', 'assets/build') }}">
 </head>
 <body>
 @yield('body')
