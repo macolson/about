@@ -2,5 +2,5 @@
 
 return [
     'production' => true,
-    'baseUrl' => 'https://macolson.github.io/macolson.gihub.io/',
+    'baseUrl'    => 'https://macolson.github.io/about/',
 ];
