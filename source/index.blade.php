@@ -3,12 +3,12 @@
 @section('body')
     <div class="max-w-full lg:max-w-7xl w-full shadow-lg m-auto bg-white flex flex-col lg:flex-row">
 
-        @include('sidebar')
+        @include('_partials.sidebar')
 
         <div class="w-full lg:w-3/5 p-5 lg:p-10">
-            @include('about')
-            @include('experience')
-            @include('education')
+            @include('_partials.about')
+            @include('_partials.experience')
+            @include('_partials.education')
         </div>
     </div>
     <style>
