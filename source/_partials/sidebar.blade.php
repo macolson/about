@@ -90,114 +90,116 @@
                     Marketing Website </a></div>
         </li>
     </ul>
-    <h2 class="title flex items-center text-white text-gray-100 text-xl text-center tracking-wider font-sans pt-4 pb-2">
-        Skills </h2>
-    <ul class="pb-10">
-        <li>
-            <div class="flex flex-col py-2">
-                <div class="text-xs text-gray-500 pb-1 uppercase"> German <small class="text-gray-600">mother
-                        tongue</small></div>
-                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
-                    <div class="bg-blue-400 h-full" style="width: 100%;"></div>
-                </div>
-            </div>
-            <div class="flex flex-col py-2">
-                <div class="text-xs text-gray-500 pb-1 uppercase"> English</div>
-                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
-                    <div class="bg-blue-400 h-full" style="width: 85%;"></div>
-                </div>
-            </div>
-            <div class="flex flex-col py-2">
-                <div class="text-xs text-gray-500 pb-1 uppercase"> Team player</div>
-                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
-                    <div class="bg-blue-400 h-full" style="width: 100%;"></div>
-                </div>
-            </div>
-        </li>
-
-    </ul>
-
-
-    <h2 class="title flex items-center text-white text-gray-100 text-xl text-center tracking-wider font-sans pt-4 pb-2">
-        Code Skills </h2>
-    <ul class="pb-10">
-        @foreach ($skill as $skill)
+    <div class="w-full">
+        <h2 class="title flex items-center text-white text-gray-100 text-xl text-center tracking-wider font-sans pt-4 pb-2">
+            Skills </h2>
+        <ul class="pb-10">
             <li>
                 <div class="flex flex-col py-2">
-                    <div class="text-xs text-gray-500 pb-1 uppercase"> {{ $skill->skill }} <small
-                                class="text-gray-600">{{ $skill->description }}</small></div>
-                    <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
-                        <div class="bg-blue-400 h-full" style="width: {{ $skill->level }};"></div>
+                    <div class="text-xs text-gray-500 pb-1 uppercase"> German <small class="text-gray-600">mother
+                            tongue</small></div>
+                    <div class="w-full h-1 bg-gray-700 rounded overflow-hidden">
+                        <div class="bg-blue-500 h-full" style="width: 100%;"></div>
+                    </div>
+                </div>
+                <div class="flex flex-col py-2">
+                    <div class="text-xs text-gray-500 pb-1 uppercase"> English</div>
+                    <div class="w-full h-1 bg-gray-700 rounded overflow-hidden">
+                        <div class="bg-blue-500 h-full" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="flex flex-col py-2">
+                    <div class="text-xs text-gray-500 pb-1 uppercase"> Team player</div>
+                    <div class="w-full h-1 bg-gray-700 rounded overflow-hidden">
+                        <div class="bg-blue-500 h-full" style="width: 100%;"></div>
                     </div>
                 </div>
             </li>
-        @endforeach
-    </ul>
 
-    <h2 class="title flex items-center text-white text-gray-100 text-xl text-center tracking-wider font-sans pt-4 pb-2">
-        Tools Skills </h2>
-    <ul class="pb-10">
-        @foreach ($toolSkill as $tool)
+        </ul>
+
+
+        <h2 class="title flex items-center text-white text-gray-100 text-xl text-center tracking-wider font-sans pt-4 pb-2">
+            Code Skills </h2>
+        <ul class="pb-10">
+            @foreach ($skill as $skill)
+                <li>
+                    <div class="flex flex-col py-2">
+                        <div class="text-xs text-gray-500 pb-1 uppercase"> {{ $skill->skill }} <small
+                                    class="text-gray-800">{{ $skill->description }}</small></div>
+                        <div class="w-full h-1 bg-gray-700 rounded overflow-hidden">
+                            <div class="shadow bg-blue-500 h-full" style="width: {{ $skill->level }};"></div>
+                        </div>
+                    </div>
+                </li>
+            @endforeach
+        </ul>
+
+        <h2 class="title flex items-center text-white text-gray-100 text-xl text-center tracking-wider font-sans pt-4 pb-2">
+            Tools Skills </h2>
+        <ul class="pb-10">
+            @foreach ($toolSkill as $tool)
+                <li>
+                    <div class="flex flex-col py-2">
+                        <div class="text-xs text-gray-500 pb-1 uppercase"> {{ $tool->skill }} <small
+                                    class="text-gray-600">{{ $tool->description }}</small></div>
+                        <div class="w-full h-1 bg-gray-700 rounded overflow-hidden">
+                            <div class="bg-blue-500 h-full" style="width: {{ $tool->level }};"></div>
+                        </div>
+                    </div>
+                </li>
+            @endforeach
+        </ul>
+        <h2 class="title flex items-center text-white text-gray-100 text-xl text-center tracking-wider font-sans pt-4 pb-2">
+            Activities </h2>
+        <ul class="pb-10">
             <li>
                 <div class="flex flex-col py-2">
-                    <div class="text-xs text-gray-500 pb-1 uppercase"> {{ $tool->skill }} <small
-                                class="text-gray-600">{{ $tool->description }}</small></div>
+                    <div class="text-xs text-gray-500 pb-1 uppercase"> Family <small class="text-gray-600">My two boys
+                            always know how to keep me busy</small></div>
                     <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
-                        <div class="bg-blue-400 h-full" style="width: {{ $tool->level }};"></div>
+                        <div class="bg-blue-400 h-full" style="width: 100%;"></div>
+                    </div>
+                </div>
+                <div class="flex flex-col py-2">
+                    <div class="text-xs text-gray-500 pb-1 uppercase"> Climbing <small class="text-gray-600">Via
+                            Ferrata</small></div>
+                    <div class="w-full h-1 bg-gray-700 rounded overflow-hidden">
+                        <div class="bg-blue-500 h-full" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="flex flex-col py-2">
+                    <div class="text-xs text-gray-500 pb-1 uppercase"> Skiing</div>
+                    <div class="w-full h-1 bg-gray-700 rounded overflow-hidden">
+                        <div class="bg-blue-500 h-full" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="flex flex-col py-2">
+                    <div class="text-xs text-gray-500 pb-1 uppercase"> Snowboarding</div>
+                    <div class="w-full h-1 bg-gray-700 rounded overflow-hidden">
+                        <div class="bg-blue-500 h-full" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="flex flex-col py-2">
+                    <div class="text-xs text-gray-500 pb-1 uppercase"> Skateboarding</div>
+                    <div class="w-full h-1 bg-gray-700 rounded overflow-hidden">
+                        <div class="bg-blue-500 h-full" style="width: 50%;"></div>
+                    </div>
+                </div>
+                <div class="flex flex-col py-2">
+                    <div class="text-xs text-gray-500 pb-1 uppercase"> Windsurfing</div>
+                    <div class="w-full h-1 bg-gray-700 rounded overflow-hidden">
+                        <div class="bg-blue-500 h-full" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="flex flex-col py-2">
+                    <div class="text-xs text-gray-500 pb-1 uppercase"> Photography</div>
+                    <div class="w-full h-1 bg-gray-700 rounded overflow-hidden">
+                        <div class="bg-blue-500 h-full" style="width: 70%;"></div>
                     </div>
                 </div>
             </li>
-        @endforeach
-    </ul>
-    <h2 class="title flex items-center text-white text-gray-100 text-xl text-center tracking-wider font-sans pt-4 pb-2">
-        Activities </h2>
-    <ul class="pb-10">
-        <li>
-            <div class="flex flex-col py-2">
-                <div class="text-xs text-gray-500 pb-1 uppercase"> Family <small class="text-gray-600">My two boys
-                        always know how to keep me busy</small></div>
-                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
-                    <div class="bg-blue-400 h-full" style="width: 100%;"></div>
-                </div>
-            </div>
-            <div class="flex flex-col py-2">
-                <div class="text-xs text-gray-500 pb-1 uppercase"> Climbing <small class="text-gray-600">Via
-                        Ferrata</small></div>
-                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
-                    <div class="bg-blue-400 h-full" style="width: 70%;"></div>
-                </div>
-            </div>
-            <div class="flex flex-col py-2">
-                <div class="text-xs text-gray-500 pb-1 uppercase"> Skiing</div>
-                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
-                    <div class="bg-blue-400 h-full" style="width: 80%;"></div>
-                </div>
-            </div>
-            <div class="flex flex-col py-2">
-                <div class="text-xs text-gray-500 pb-1 uppercase"> Snowboarding</div>
-                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
-                    <div class="bg-blue-400 h-full" style="width: 80%;"></div>
-                </div>
-            </div>
-            <div class="flex flex-col py-2">
-                <div class="text-xs text-gray-500 pb-1 uppercase"> Skateboarding</div>
-                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
-                    <div class="bg-blue-400 h-full" style="width: 50%;"></div>
-                </div>
-            </div>
-            <div class="flex flex-col py-2">
-                <div class="text-xs text-gray-500 pb-1 uppercase"> Windsurfing</div>
-                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
-                    <div class="bg-blue-400 h-full" style="width: 60%;"></div>
-                </div>
-            </div>
-            <div class="flex flex-col py-2">
-                <div class="text-xs text-gray-500 pb-1 uppercase"> Photography</div>
-                <div class="w-full h-1 bg-gray-400 rounded overflow-hidden">
-                    <div class="bg-blue-400 h-full" style="width: 70%;"></div>
-                </div>
-            </div>
-        </li>
 
-    </ul>
+        </ul>
+    </div>
 </div>
