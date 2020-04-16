@@ -13,7 +13,6 @@
     --}}
     <style>
         {{ inline(mix('css/main.css', 'assets/build')) }}
-        "
     </style>
 </head>
 <body>
