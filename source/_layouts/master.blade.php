@@ -8,6 +8,7 @@
     <link rel="canonical" href="{{ $page->getUrl() }}">
     <meta name="description" content="{{ $page->description }}">
     <title>{{ $page->title }}</title>
+    <link rel="icon" type="image/png" href="assets/images/olli.png">
     {{--
     <link rel="stylesheet" href="{{ trim($page->getUrl(),'/') }}{{ mix('css/main.css', 'assets/build') }}">
     --}}

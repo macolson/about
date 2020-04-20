@@ -48,27 +48,31 @@
     <ul class="pb-10">
         <li>
             <div class="flex py-2">
-                <div class="text-sm text-right text-gray-500 w-1/3 pr-3"> Villa Amsel</div>
-                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600" href="https://www.villa-amsel.at">
-                    https://www.villa-amsel.at <small class="text-gray-600">JIMDO</small></a> </div>
-        </li>
-        <li>
-            <div class="flex py-2">
-                <div class="text-sm text-right text-gray-500 w-1/3 pr-3"> Reischhof</div>
-                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600" href="https://www.reischhof.at">
-                    https://www.reischhof.at <small class="text-gray-600">JIMDO</small></a></div>
-        </li>
-        <li>
-            <div class="flex py-2">
                 <div class="text-sm text-right text-gray-500 w-1/3 pr-3"> Gästehaus Bliem</div>
-                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600" href="https://www.bliem.cc">
+                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600"
+                   href="https://www.bliem.cc">
                     https://www.bliem.cc <small class="text-gray-600">JIMDO and logo design</small></a></div>
         </li>
         <li>
             <div class="flex py-2">
+                <div class="text-sm text-right text-gray-500 w-1/3 pr-3"> Villa Amsel</div>
+                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600"
+                   href="https://www.villa-amsel.at">
+                    https://www.villa-amsel.at <small class="text-gray-600">JIMDO</small></a></div>
+        </li>
+        <li>
+            <div class="flex py-2">
+                <div class="text-sm text-right text-gray-500 w-1/3 pr-3"> Reischhof</div>
+                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600"
+                   href="https://www.reischhof.at">
+                    https://www.reischhof.at <small class="text-gray-600">JIMDO</small></a></div>
+        </li>
+        <li>
+            <div class="flex py-2">
                 <div class="text-sm text-right text-gray-500 w-1/3 pr-3"> Repayment calculator</div>
-                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600" href="https://landeskulturfonds.tirol/at/tilgungsrechner.php">
-                   Calculator <small class="text-gray-600">VueJS implmentation</small></a></div>
+                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600"
+                   href="https://landeskulturfonds.tirol/at/tilgungsrechner.php">
+                    Calculator <small class="text-gray-600">VueJS implementation</small></a></div>
         </li>
     </ul>
     <div class="title flex items-center text-white text-gray-100 text-xl text-center tracking-wider font-sans pt-4 pb-2">
@@ -91,25 +95,31 @@
         </li>
     </ul>
     <div class="w-full">
+
         <h2 class="title flex items-center text-white text-gray-100 text-xl text-center tracking-wider font-sans pt-4 pb-2">
-            Skills </h2>
+            Personal Skills </h2>
+
+        <p class="text-sm text-left text-gray-500">My native language is German but I´m also very good in speaking and
+            writing English(my source code is always written in English).
+            With very good interpersonal and communication skills I enjoy working in teams.</p>
+
+        {{--
         <ul class="pb-10">
             <li>
                 <div class="flex flex-col py-2">
-                    <div class="text-xs text-gray-500 pb-1 uppercase"> German <small class="text-gray-600">mother
-                            tongue</small></div>
+                    <div class="text-xs text-gray-500 pb-1 uppercase"> German <small class="text-gray-600">mother tongue</small></div>
                     <div class="w-full h-1 bg-gray-700 rounded overflow-hidden">
                         <div class="bg-blue-500 h-full" style="width: 100%;"></div>
                     </div>
                 </div>
                 <div class="flex flex-col py-2">
-                    <div class="text-xs text-gray-500 pb-1 uppercase"> English</div>
+                    <div class="text-xs text-gray-500 pb-1 uppercase"> English <small class="text-gray-600">mother tongue</small></div>
                     <div class="w-full h-1 bg-gray-700 rounded overflow-hidden">
                         <div class="bg-blue-500 h-full" style="width: 85%;"></div>
                     </div>
                 </div>
                 <div class="flex flex-col py-2">
-                    <div class="text-xs text-gray-500 pb-1 uppercase"> Team player</div>
+                    <div class="text-xs text-gray-500 pb-1 uppercase"> Team player <small class="text-gray-600">mother tongue</small></div>
                     <div class="w-full h-1 bg-gray-700 rounded overflow-hidden">
                         <div class="bg-blue-500 h-full" style="width: 100%;"></div>
                     </div>
@@ -117,7 +127,7 @@
             </li>
 
         </ul>
-
+--}}
 
         <h2 class="title flex items-center text-white text-gray-100 text-xl text-center tracking-wider font-sans pt-4 pb-2">
             Code Skills </h2>
