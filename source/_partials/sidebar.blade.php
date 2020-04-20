@@ -75,32 +75,13 @@
                     Calculator <small class="text-gray-600">VueJS implementation</small></a></div>
         </li>
     </ul>
-    <div class="title flex items-center text-white text-gray-100 text-xl text-center tracking-wider font-sans pt-4 pb-2">
-        Work Projects
-    </div>
-    <ul class="pb-10">
-        <li>
-            <div class="flex py-2">
-                <div class="text-sm text-right text-gray-500 w-1/3 pr-3"> enjoy.now by Alcatel</div>
-                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600"
-                   href="https://play.google.com/store/apps/details?id=com.alcatel.mcrm&gl=AT">
-                    Google Play Link</a></div>
-        </li>
-        <li>
-            <div class="flex py-2">
-                <div class="text-sm text-right text-gray-500 w-1/3 pr-3"> HoReCa HERO</div>
-                <a class="text-sm text-gray-100 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600"
-                   href="https://horeca-hero.com">
-                    Marketing Website </a></div>
-        </li>
-    </ul>
     <div class="w-full">
 
         <h2 class="title flex items-center text-white text-gray-100 text-xl text-center tracking-wider font-sans pt-4 pb-2">
             Personal Skills </h2>
 
-        <p class="text-sm text-left text-gray-500">My native language is German but I´m also very good in speaking and
-            writing English(my source code is always written in English).
+        <p class="text-sm text-left text-gray-500">My native language is German but I'm also very good in speaking and
+            writing English (my source code is always written in English).
             With very good interpersonal and communication skills I enjoy working in teams.</p>
 
         {{--
