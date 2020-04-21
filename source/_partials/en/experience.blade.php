@@ -1,22 +1,188 @@
-<div class="title flex items-center text-white text-gray-600 text-xl text-center tracking-wider font-sans pt-4 pb-2">
-    Work Projects
-</div>
-<ul class="pb-10">
-    <li>
-        <div class="flex py-2">
-            <div class="text-sm text-right text-gray-500 w-1/3 pr-3"> enjoy.now by Alcatel</div>
-            <a class="text-sm text-gray-600 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600"
-               href="https://play.google.com/store/apps/details?id=com.alcatel.mcrm&gl=AT">
-                Google Play Link</a></div>
+<h2 class="title flex items-center text-gray-700 text-xl text-center tracking-wider font-sans pt-4 pb-5">
+    Work Projects </h2>
+
+
+<h2 class="flex items-center text-gray-800 text-l text-center tracking-wider font-sans pt-4 pb-5">
+    MCRM Framework
+</h2>
+
+<p class="font-sans text-xs text-gray-700 tracking-wide leading-loose py-2">
+    When I started at MOSSglocal in 2012, there was the idea of building an app framework for Mobile Customer
+    Relationship Management.
+    I was responsible for creating a whole concept on how to create a mobile application to increase customer loyalty by
+    using it like another marketing channel in the customers pocket.
+    After finishing the concept I acted as a translator to explain marketing needs to external developers to gain the
+    expected outcome in the most efficient way.<br>
+    First Pilot was launched together with Alfa Romeo (Mobile App: Alfa Romeo & More).
+</p>
+
+<div class="font-sans text-gray-800 mt-4">Areas of responsibility</div>
+<ul class="flex flex-col mt-2 list-disc list-inside">
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Main concept creation for a new product
     </li>
-    <li>
-        <div class="flex py-2">
-            <div class="text-sm text-right text-gray-500 w-1/3 pr-3"> HoReCa HERO</div>
-            <a class="text-sm text-gray-600 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600"
-               href="https://horeca-hero.com">
-                Marketing Website </a></div>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Technical project management
+    </li>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Content creation in Pimcore CMS
     </li>
 </ul>
+
+<h2 class="title flex items-center text-gray-700 text-xl text-center tracking-wider font-sans pt-4 pb-5">
+    HTC Club
+</h2>
+<p class="font-sans text-xs text-gray-700 tracking-wide leading-loose py-2">
+    In 2014 we started with the project setup to customize the MCRM Framework to the needs of HTC. The first pilot of
+    HTC Club was launched in Germany and UK and pre-installed on all new HTC smartphones.
+    After the successful launch more than 30 countries had HTC Club pre-installed on new HTC smartphones. After more
+    than one year at the end of HTC Club we had more than 2 million users worldwide.
+</p>
+
+<div class="font-sans text-gray-800 mt-4">Areas of responsibility</div>
+<ul class="flex flex-col mt-2 list-disc list-inside">
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Communication to HTC regarding technical implementations/apis/sdks and testing
+    </li>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Technical project management
+    </li>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Gathering test results and create tickets for development
+    </li>
+</ul>
+
+
+<h2 class="title flex items-center text-gray-700 text-xl text-center tracking-wider font-sans pt-4 pb-5">
+    enjoy-now by Alcatel (Version 1)
+</h2>
+<p class="font-sans text-xs text-gray-700 tracking-wide leading-loose py-2">
+    2016 started another adoption of the MCRM framework for ALCATEL. We adopted the existing MCRM app to meet the
+    Alcatel CI.
+    As the first MCRM versions were written as a hybrid apps with PhoneGap, we decided to rewrite the app in native Java
+    (Android) to gain more flexibility and speed.
+    The MCRM Backend was also maintained and improved using the Pimcore CMS framework. 2017 before enjoy.now launched,
+    Alcatel decided to insource app and backend development.
+    To make the development insourcing for Alcatel as smooth as possible we prepared all necessary documents from
+    setting up the servers, maintaining the framework and building the apps.
+    We also prepared several presentations and workshops in Shenzen (China).
+</p>
+<div class="font-sans text-gray-800 mt-4">Areas of responsibility</div>
+<ul class="flex flex-col mt-2 list-disc list-inside">
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Development lead
+    </li>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Java development
+    </li>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        PHP development (Pimcore Framework)
+    </li>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        MCRM system administration
+    </li>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Amazon Web Service setup and maintenance (EC2, RDS, ElastiCache)
+    </li>
+</ul>
+
+<h2 class="title flex items-center text-gray-700 text-xl text-center tracking-wider font-sans pt-4 pb-5">
+    Project <em>"MARLIS"</em>
+</h2>
+<p class="font-sans text-xs text-gray-700 tracking-wide leading-loose py-2">
+    In 2017 it was time to cut braids. The current MCRM Framework V1 together with pimcore was not maintainable anymore
+    without a complete rewrite.
+    We decided to rebuild MCRM from scratch with Laravel / VUE.js for the backend / CMS part and EXPO.io for the mobile
+    app part.
+    I wrote the whole CMS from scratch with Laravel and used VUE.js to serve the Content Management as a SPA (Single
+    Page Application).
+    The CMS was ready to use and served content for some Demo Apps.
+    In November 2018 Laravel launched an CMS <a class="underline hover:text-blue-600" href="https://nova.laravel.com">Laravel
+        NOVA</a>.
+    As I was the only backend developer I decided to throw away the Vue.js backend and use NOVA to increase feature
+    development speed and not worry about CMS basics.
+</p>
+
+<ul class="flex flex-col mt-2 list-disc list-inside">
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Full Stack Development <small class="text-gray-600">Laravel, PHP, Vue</small>
+    </li>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Amazon Web Service setup and maintenance (EC2, RDS, ElastiCache)
+    </li>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Main technical concept creation for a new product based on Laravel
+    </li>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Model and database design
+    </li>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        API design with frontend developers
+    </li>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Authentication using OAuth2 service
+    </li>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Integration of external services such as Mailgun, EXPO push service
+    </li>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Backend development lead <small class="text-gray-600">creating concepts, coordination
+            developers, sprint planning with PM</small>
+    </li>
+    <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+        Custom CMS web application development with VueJS and Laravel
+    </li>
+</ul>
+
+<h2 class="title flex items-center text-gray-700 text-xl text-center tracking-wider font-sans pt-4 pb-5">
+    enjoy-now by Alcatel (Version 2)
+</h2>
+<p class="font-sans text-xs text-gray-700 tracking-wide leading-loose py-2">
+    In the second half of 2018 Alcatel had no development resources for MCRM anymore and asked us to refresh and revive
+    enjoy.now.
+    We started adopting Project "MARLIS" to meet the Alcatel requirements. In 2019 enjoy.now was updated to the latest
+    backend using Laravel and the new frontend using EXPO.io.
+    The updated versions were also pre-installed on all new Alcatel smartphones. The backend and MySQL database is
+    constantly maintained to increase performance and stability.
+    Currently more than 4 million users are using enjoy.now by Alcatel.
+</p>
+<div class="font-sans text-gray-800 mt-4">Areas of responsibility</div>
+<ul class="flex flex-col mt-2 list-disc list-inside">
+    <ul class="flex flex-col mt-2 list-disc list-inside">
+        <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+            AWS server administration and maintenance
+        </li>
+        <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+            PHP development
+        </li>
+    </ul>
+</ul>
+
+
+<h2 class="title flex items-center text-gray-700 text-xl text-center tracking-wider font-sans pt-4 pb-5">
+    HoReCa HERO
+</h2>
+<p class="font-sans text-xs text-gray-700 tracking-wide leading-loose py-2">
+    In 2019 we started another project based on <em>MARLIS</em> called HoReCa HERO.
+</p>
+<div class="font-sans text-gray-800 mt-4">Areas of responsibility</div>
+<ul class="flex flex-col mt-2 list-disc list-inside">
+    <ul class="flex flex-col mt-2 list-disc list-inside">
+        <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+            AWS server administration and maintenance
+        </li>
+        <li class="text-xs px-3 py-1 font-semibold text-gray-700 mr-2 mb-2">
+            PHP development
+        </li>
+    </ul>
+</ul>
+
+
+<div class="flex py-2">
+    <div class="text-sm text-right text-gray-500 w-1/3 pr-3"> HoReCa HERO</div>
+    <a class="text-sm text-gray-600 cursor-pointer w-2/3 block no-underline cursor-pointer hover:text-blue-600"
+       href="https://horeca-hero.com">
+        Marketing Website </a></div>
 
 <h2 class="title flex items-center text-gray-700 text-xl text-center tracking-wider font-sans pt-4 pb-5">
     Experience </h2>
@@ -71,7 +237,6 @@
                         Internal IT infrastructure Maintenance <small class="text-gray-600">internal Linux Ubuntu
                             server, Synology DS, Unifi Network management</small>
                     </li>
-
                 </ul>
 
                 <div class="font-sans text-gray-800 mt-4"> Frameworks & programming languages</div>
