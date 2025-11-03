@@ -3,5 +3,5 @@
 return [
     'debug' => false,
     'production' => true,
-    'baseUrl'    => 'https://macolson.github.io/about',
+    'baseUrl'    => 'https://macolson.github.io/about/',
 ];
