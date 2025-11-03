@@ -9,12 +9,9 @@
     <meta name="description" content="{{ $page->description }}">
     <title>{{ $page->title }}</title>
     <link rel="icon" type="image/png" href="assets/images/olli.png">
-    {{--
-    <link rel="stylesheet" href="{{ trim($page->getUrl(),'/') }}{{ mix('css/main.css', 'assets/build') }}">
-    --}}
-    <style>
-        {{ inline(mix('css/main.css', 'assets/build')) }}
-    </style>
+    @viteRefresh()
+    <link rel="stylesheet" href="{{ vite('source/_assets/css/main.css') }}">
+    <script defer type="module" src="{{ vite('source/_assets/js/main.js') }}"></script>
 </head>
 <body>
 @yield('body')
