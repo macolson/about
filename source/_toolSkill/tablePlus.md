@@ -1,5 +1,5 @@
 ---
-skill: Sequel Pro
+skill: TablePlus
 level: 90%
 description:
 ---
